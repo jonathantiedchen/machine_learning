@@ -1,0 +1,55 @@
+Not used models
+
+int_dim_customer_accounts_country_mapping -> out
+
+fct_cbp_collection_status_history 
+fct_cbp_collections_cancelled
+fct_cbp_collections_returned 
+fct_cbp_funding_cancelled 
+fct_cbp_funding_processed
+fct_cbp_funding_returned 
+fct_cbp_funding_status_history
+fct_cbp_payouts_cancelled 
+fct_cbp_payouts_returned 
+-> all out
+
+agg_cp_cancellation_reasons ->out
+agg_cp_error_reasons ->out
+ 
+fct_essp_transactions 
+
+dim_fsm_cashier -> out
+dim_fsm_memberlocations -> out
+also delete from transaction tables
+
+dim_crm_apimigration -> Should be used in Onboarding and Support?
+dim_crm_licenses 
+dim_crm_providers
+fct_crm_opportunity_history_commercial 
+fct_crm_opportunity_sales_process_history
+
+fct_commercial_targets -> to be in commercial overview?
+
+dim_compliance_policies
+dim_compliance_policy_custom_fields
+dim_compliance_policy_organisations
+dim_compliance_policy_tags
+dim_compliance_policy_users_accountable
+dim_compliance_policy_users_consulted
+dim_compliance_policy_users_informed
+dim_compliance_policy_users_responsible
+dim_compliance_risk_threats
+dim_compliance_risk_vulnerabilities
+dim_compliance_threats
+dim_compliance_vulnerabilities
+-> in report
+
+int_cbp_provider_account_balances_transient_transfers -> out
+
+fct_marketing_google_analytics_session_source -> out
+
+dim_sharepoint_partner_banks
+dim_sharepoint_product_partners
+
+
+Models can be disabled in project yml by specifying +enabled: false
