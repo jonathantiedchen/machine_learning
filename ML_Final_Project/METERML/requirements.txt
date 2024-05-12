@@ -1,5 +1,5 @@
 numpy
-azure-storage blob
+azure-storage-blob
 pillow
 matplotlib
 pandas
