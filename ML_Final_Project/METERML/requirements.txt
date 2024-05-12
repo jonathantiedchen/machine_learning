@@ -1,4 +1,3 @@
-tensoflow
 numpy
 azure-storage blob
 pillow
